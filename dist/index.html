@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divy Pratap Singh Gaharwar | Frontend Developer &amp; Hackathon Enthusiast</title>
+    <meta name="description" content="Personal portfolio of Divy Pratap Singh Gaharwar - Frontend Developer and Hackathon Enthusiast specializing in React.js, Tailwind CSS, and modern web experiences." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Google Fonts: Sora & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Anti-FOUC Theme Script (Default: Dark theme) -->
+    <meta name="color-scheme" content="dark light" />
+    <script>
+      (function() {
+        try {
+          const storedTheme = localStorage.getItem('theme');
+          const isDark = storedTheme === 'dark' || (!storedTheme); // Dark theme by default!
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.querySelector('meta[name="color-scheme"]').setAttribute('content', 'dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.querySelector('meta[name="color-scheme"]').setAttribute('content', 'light');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-nb9BCx6c.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Q7CG1Jmk.css">
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-[#070A10] dark:text-slate-100 min-h-screen selection:bg-emerald-500 selection:text-white transition-colors duration-300 antialiased font-sans">
+    <div id="root"></div>
+  </body>
+</html>
