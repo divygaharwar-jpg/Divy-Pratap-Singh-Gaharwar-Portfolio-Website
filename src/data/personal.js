@@ -48,7 +48,7 @@ export const personalData = {
     phone: "+91 9202943277",
     location: "India",
     github: "https://github.com/DivyPratapSingh",
-    linkedin: "https://linkedin.com/in/divy-pratap",
+    linkedin: "https://linkedin.com/in/divy-pratap-singh-g-8b124438b",
     githubUsername: "DivyPratapSingh"
   },
   resumePath: "/resume.pdf"
